@@ -12,6 +12,10 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(timeString){
   let hour = timeString.split(':');
-  
+  hour=parseInt(hour);
+  if(hour<12)
+  {
+    return ""
+  }
 }
 /* Write your implementation of displayMessage() */
